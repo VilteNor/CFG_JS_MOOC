@@ -1,0 +1,84 @@
+header {
+    background-color: #022919;
+    display: flex;
+  }
+
+  h1 {
+    width: 60%;
+    color:rgb(191, 236, 224);
+    display: flex;
+    padding-left: 20px;
+
+  
+  }
+
+  .welcome {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+
+  }
+  .welcome-select {
+    margin-bottom: 0px;
+  }
+
+  header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+
+  }
+
+  a{
+    color:#99dac7;
+    font-weight: bold;
+    padding-left: 10px;
+    text-align: center;
+
+  }
+  a:link{
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: rgb(240, 244, 242);
+  }
+
+
+  .select{
+    padding-top:10px;
+    padding-bottom:50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.individual{
+    margin-right: 50px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.individual h2 {
+    margin-top:0px;
+}
+
+.business{
+    margin-left: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.business h2 {
+    margin-top:0px;
+}
+
+
+.resources ul {
+    margin-top:5px;
+}
